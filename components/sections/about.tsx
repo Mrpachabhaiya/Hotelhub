@@ -34,7 +34,7 @@ export default function About() {
   }, [inView]);
 
   return (
-    <section className="py-24 bg-background" ref={ref}>
+    <section className="py-24 bg-[#283618]/95" ref={ref}>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

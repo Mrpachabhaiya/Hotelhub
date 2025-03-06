@@ -121,7 +121,10 @@ export default function Testimonials() {
   }, [inView]);
 
   return (
-    <section className="py-24 bg-background relative overflow-hidden" ref={ref}>
+    <section
+      className="py-24 bg-[#283618]/95 relative overflow-hidden"
+      ref={ref}
+    >
       {/* Background Image */}
       <div
         className="absolute inset-0 parallax opacity-10"

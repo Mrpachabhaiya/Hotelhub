@@ -33,7 +33,7 @@ export default function Hero() {
             Luxury Hotel in California
           </span>
           <h1
-            className={`${playfair.className} hero-title text-white mb-6 leading-tight`}
+            className={`${playfair.className} hero-title text-3xl sm:text-5xl md:6xl lg:text-7xl text-white mb-6 leading-tight`}
           >
             Discover Your Next
             <br />
