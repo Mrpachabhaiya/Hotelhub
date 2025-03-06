@@ -96,10 +96,8 @@ export default function RootLayout({
   useEffect(() => {
     // Initialize Lenis for smooth scrolling
     const lenis = new Lenis({
-      duration: 1.2, // Animation duration
-      smooth: true, // Enable smooth scrolling
-      smoothTouch: false, // Disable smooth scrolling on touch devices
-      touchMultiplier: 2, // Multiplier for touch scroll speed
+      lerp: 0.1, // Smoothness factor (replaces `smooth` and `duration`)
+      smoothWheel: true, // Multiplier for touch scroll speed
     });
 
     // RAF (Request Animation Frame) loop for Lenis
