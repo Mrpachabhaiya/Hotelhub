@@ -21,7 +21,7 @@ export default function Hero() {
           playsInline
           className="object-cover w-full h-full"
         >
-          <source src="./hero1.mp4" type="video/mp4" />
+          <source src="./hero2.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-[#283618]/60" />
       </div>
